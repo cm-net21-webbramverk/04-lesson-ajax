@@ -1,6 +1,7 @@
 // hämta DOM-elementen som ska manipuleras
 const chuckButton = document.querySelector('#chuck-button')
 const chuckResults = document.querySelector('.chuck-results')
+const chuckImage = document.querySelector('#chuck-icon')
 
 // Klickhändelse på knappen
 chuckButton.addEventListener('click', async () => {
@@ -18,4 +19,5 @@ chuckButton.addEventListener('click', async () => {
 
 	// Uppdatera DOM-elementen i appen med informationen som vi fick från API:et
 	chuckResults.innerText = data.value
+	chuckImage.src = data.icon_url
 })
