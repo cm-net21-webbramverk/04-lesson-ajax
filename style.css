@@ -1,0 +1,39 @@
+body {
+	padding: 0em; margin: 0em;
+}
+nav, main, article, header, footer {
+	padding: 1em;
+	margin: 0em 2em;
+}
+section {
+	border: 1px #FDEBD0;
+	padding: 1em;
+	margin: 0.3em 0em;
+	background-color: #FEF5E7;
+	border-radius: 0.8em;
+}
+button {
+	padding: 0.3em 1.4em;
+	background-color: #BA4A00;
+	border: 1px solid #BA4A00;
+	border-radius: 4px;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #DC7633;
+}
+
+.nodots {
+	list-style-type: none;
+	padding: 0em;
+}
+li {
+	padding: 0.2em 1em;
+	border-top: 1px solid #99A3A4;
+}
+li:first-child {
+	border: none;
+}
+li:hover {
+	border-left: 4px solid #DC7633;
+}
